@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulari Programa Investigo</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><b>Dades de l'entitat</b></legend><br></br>
+
+            <label for="entitat">Entitat *</label>
+            <input type="text" id="entitat" name="entitat" required>
+
+            <label for="nif-entitat">NIF entitat *</label>
+            <input type="text" id="nif-entitat" name="nif-entitat" required><br></br>
+
+            <legend><b>Dades de la persona representant legal de l'entitat</b></legend><br></br>
+
+            <label for="nom">Nom *</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="primer-cognom">Primer cognom *</label>
+            <input type="text" id="primer-cognom" name="primer-cognom" required>
+
+            <label for="segon-cognom">Segon cognom *</label>
+            <input type="text" id="segon-cognom" name="segon-cognom" required>
+
+            <label for="tipus-document">Tipus de document d'identificació *</label>
+            <select id="tipus-document" name="tipus-document" required>
+                <option value="DNI">DNI</option>
+                <option value="NIE">NIE</option>
+                
+            </select>
+
+            <label for="num-identificacio">Número d'identificació *</label>
+            <input type="text" id="num-identificacio" name="num-identificacio" required>
+
+            <!-- The rest of the form inputs would continue here... -->
+        </fieldset>
+    </form>
+</body>
+</html>
